@@ -31,6 +31,15 @@ body {
 .body-section {
   flex: 1;
 }
+footer p {
+  font-family: Garamond, serif;
+  letter-spacing: 3px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
 </style>
 </head>
 <body class="d-flex flex-column mh-100 text-center">
@@ -50,7 +59,16 @@ body {
   </div>
 </section>
 
-<footer>&copy; 2018 The None Percent LLC</footer>
+<footer class="d-block">
+  <div class="container">
+    <div class="row">
+      <div class="col py-3 text-center">
+        <p class="mb-1">&copy; 2018</p>
+        <p class="mb-0">The Nøne Percent LLC</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
